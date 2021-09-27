@@ -21,6 +21,7 @@ spec:
       labels:
         app: podinfo
     spec:
+      serviceAccountName: dev-team
       containers:
       - name: podinfod
         image: ghcr.io/stefanprodan/podinfo:6.0.0
